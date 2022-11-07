@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* style the header*/
+header {
+    background-image: url(img/p13.jpg);
+    height: 93vh;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;    
+}
+.himg h1 {
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    padding-top: 170px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.himg p {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 420px;
+    padding-right: 420px;   
+}
+/*Style the button in header*/
+  .button1 input[type=button] {
+    background-color: rgb(255, 89, 89);
+    border: none;
+    border-radius: 06px;
+    color: white;
+    padding: 15px 22px;
+    text-decoration: none;
+    margin-left: 45%;
+    margin-top: 34px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+/*Style the navigation bar*/
+ .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.6s;
+  }
+  
+  .nav li a:hover:not(.active) {
+    background-color: rgb(255, 89, 89);
+  }
+  
+  .active {
+    background-color: rgb(255, 89, 89);
+  }
+/*style the section 1*/
+  .section1 h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 280px;
+    padding-right: 300px;
+  }
+  .section1 p {
+    color: rgb(112, 112, 112);
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 420px;
+    padding-right: 420px; 
+  }
+/*style the boxs*/
+  .box {
+    margin-top: 50px;
+    margin-left: 370px;
+    overflow: hidden;
+  }
+  .box1 {
+    float: left;
+    background-color: rgb(250, 250, 250);
+    color: rgb(112, 112, 112);
+    padding: 40px 27px;
+    margin: 13px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  .box1 p {
+    font-size: 33px;
+    text-align: center; 
+  }
+  .box2 {
+    float: left;
+    background-color: rgb(255, 238, 238);
+    color: rgb(255, 89, 89);
+    padding: 36px 20px;
+    margin: 13px;
+    border: 3px solid rgb(255, 89, 89);
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  .box2 p {
+    font-size: 33px;
+    text-align: center; 
+  } 
+  .box3 {
+    float: left;
+    background-color:rgb(250, 250, 250);
+    color: rgb(112, 112, 112);
+    padding: 39px 22px;
+    margin: 13px;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  .box3 p {
+    font-size: 33px;
+    text-align: center; 
+  } 
+  .box4 {
+    float: left;
+    background-color: rgb(250, 250, 250);
+    color: rgb(112, 112, 112);
+    padding: 39px 16px;
+    margin: 13px;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  .box4 p {
+    font-size: 33px;
+    text-align: center; 
+  } 
+  .box5 {
+    float: left;
+    background-color: rgb(250, 250, 250);
+    color: rgb(112, 112, 112);
+    padding: 39px 12px;
+    margin: 13px;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  .box5 p {
+    font-size: 33px;
+    text-align: center; 
+  }
+/*style the form*/
+  .Form input[type=text] {
+    width: 52%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 18px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-left: 380px;
+    text-align: center;
+    color: rgb(239, 234, 234);
+    border-bottom: 2px solid rgb(218, 218, 218);
+  }
+/*style the button*/
+  .button2 input[type=button] {
+    background-color: rgb(255, 89, 89);
+    border: none;
+    border-radius: 06px;
+    color: white;
+    padding: 15px 22px;
+    text-decoration: none;
+    margin-left: 45%;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+/*style the section2*/
+  .section2 h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 287px;
+    padding-right: 300px;
+  }
+  .section2 p {
+    color: rgb(112, 112, 112);
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 420px;
+    padding-right: 420px; 
+  }
+  .boxo {
+    margin-top: 30px;
+    margin-left: 155px;
+  }
+/*style the boxa*/
+  .boxa {
+    float: left;
+    background-color: rgb(237, 245, 246);
+    width: 274px;
+    height: 250px;
+    padding: 50px;
+    margin: 13px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .boxa img {
+    position: relative;
+    padding-top: 22px;
+  }
+
+  .boxa h2 {
+    padding-top: 20px;
+  }
+  .boxa p {
+    text-align: justify;
+    padding-top: 28px;
+    color: rgb(112, 112, 112);
+  }
+/*style the boxb*/
+  .boxb {
+    float: left;
+    background-color: rgb(255, 238, 238);
+    width: 274px;
+    height: 250px;
+    padding: 50px;
+    margin: 13px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .boxb img {
+    position: relative;
+    padding-top: 22px;
+  }
+
+  .boxb h2 {
+    padding-top: 20px;
+  }
+  .boxb p {
+    text-align: justify;
+    padding-top: 28px;
+    color: rgb(112, 112, 112);
+  }
+/*style the boxc*/
+  .boxc {
+    float: left;
+    background-color: rgb(255, 244, 214);
+    width: 274px;
+    height: 250px;
+    padding: 50px;
+    margin: 13px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .boxc img {
+    position: relative;
+    padding-top: 22px;
+  }
+
+  .boxc h2 {
+    padding-top: 20px;
+  }
+  .boxc p {
+    text-align: justify;
+    padding-top: 28px;
+    color: rgb(112, 112, 112);
+  }
+/*style the section3*/
+  .Div {
+    float: left;
+    height: 500px;
+    width: 480px;
+    margin-top: 130px;
+    margin-left: 170px;
+  }
+  .Div h1 {
+    font-size: 47px;
+  }
+  .Div p {
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 19px;
+    color: rgb(112, 112, 112);
+  }
+  .button3 input[type=button] {
+    background-color: rgb(255, 89, 89);
+    border: none;
+    border-radius: 06px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+ 
+  .Img img{
+    float: left;
+    height: 470px;
+    width: 467px;
+    margin-top: 100px;
+    margin-left: 130px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 16px 0 rgba(8, 8, 8, 0.19);
+  }
+/*style the section4*/
+  .para{
+      float: left;
+      width: 100%;
+  }
+  .Img1 img{
+    float: left;
+    height: 470px;
+    width: 467px;
+    margin-top: 70px;
+    margin-left: 165px;
+    border-radius: 6px;
+    box-shadow: 0 7px 19px 0 rgba(0, 0, 0, 0.2), 0 11px 17px 0 rgba(8, 8, 8, 0.19);
+  }
+  .Div1 {
+    float: left;
+    height: 500px;
+    width: 480px;
+    margin-top: 100px;
+    margin-left: 120px;
+    
+  }
+  .Div1 h1 {
+    font-size: 47px;
+  }
+  .Div1 p {
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 19px;
+    color: rgb(112, 112, 112);
+  }
+  .button4 input[type=button] {
+    background-color: rgb(255, 89, 89);
+    border: none;
+    border-radius: 06px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+/*style the last section*/
+  .Div2{margin-top: 200px;
+
+  }
+  .Div2 h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-left: 287px;
+    padding-right: 300px;
+  }
+  .Div2 p {
+    color: rgb(112, 112, 112);
+    font-size: 17px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 420px;
+    padding-right: 420px; 
+  }
+  .Div3 {
+    float: left;
+    background-color: rgb(255, 244, 214);
+    height: 200px;
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 335px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Div4 input[type=text] {
+    float: left;
+    width: 39%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    font-size: 15px;
+    padding: 12px 20px;
+    margin-top: 80px;
+    margin-left: 180px;
+    background-color: rgb(217, 217, 217);
+    color: rgb(170, 159, 159);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  .button5 input[type=button] {
+    float: left;
+    background-color: rgb(255, 89, 89);
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    color: white;
+    padding: 12px 33px;
+    margin-top: 80px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+/*style the footer*/
+  .footer{
+    height: 174px;
+    background-color: rgb(11, 13, 23);
+    margin-top: 400px;
+  }
+  .footer h1 {
+    font-size: 35px;
+    color: rgb(255, 89, 89);
+    text-align: center;
+    padding-top: 42px;
+    font-family: 'Lobster Two', cursive;
+  }
+  .footer p {
+    color:rgb(130, 165, 192);
+    text-align: center;
+    padding-top: 18px;
+  }
+  
+  
